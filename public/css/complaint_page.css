@@ -1,0 +1,25 @@
+.ComplaintImage{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)), url('../img/camera.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    border: 1.5px dashed #bebebed3;
+    border-radius: 10px;
+    min-height: 70px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ComplaintImage::file-selector-button {
+    display: none;
+}
+
+.is-invalid + input[type=hidden] + label::before, 
+.is-invalid + label::before {
+    border: 2px solid red !important;
+}
+.input-group-text{
+    background-color: #eaefe9a3;
+    border-radius: none;
+}

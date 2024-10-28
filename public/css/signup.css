@@ -1,0 +1,16 @@
+.register-page{
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.9),
+        rgba(0, 0, 0, 0)
+      ),
+      url("../img/hero-bg.png");
+}
+.home-btn{
+  position: absolute;
+  margin: 0;
+  margin-top: 10px;
+  margin-left: 10px;
+  left: 0;
+  top: 0;
+}
